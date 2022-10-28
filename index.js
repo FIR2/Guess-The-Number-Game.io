@@ -8,7 +8,7 @@ let audio = new Audio("./audio/1.wav");
 const init = () =>{
     // use for randam number
     // if we write Math.floor() then show only integer numbres before decimal value
-    computerGuess = Math.floor(Math.random() *20);// multiply by 100 krne se jo nmber hoga wah ab 0 to 100 ke bich ka hi milega
+    computerGuess = Math.floor(Math.random() *100);// multiply by 100 krne se jo nmber hoga wah ab 0 to 100 ke bich ka hi milega
     // console.log(computerGuess);
     document.getElementById("newGameButton").style.display= "none";
     document.getElementById("gameArea").style.display = "none";
